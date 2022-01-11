@@ -60,10 +60,6 @@ Enter number 5:33
 Your Entered Integers for Sorting
 67 4 12 8 33
 Current Process ID is : 3183
-
-18CSC205J-Operating Systems Lab
-
-SRM IST, Kattankulathur - 4 -
 [ Forking Child Process ... ]
 parent process 3183 started
 Parent of parent is 3178

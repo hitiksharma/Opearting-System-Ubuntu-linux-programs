@@ -1,6 +1,7 @@
 # Opearting-System-Ubuntu-linux-programs
 
 Experiment:- PROCESS CREATION
+
 Q1. Implement the C program in which the child process calculates the sum of
 odd numbers and the parent process calculate the sum of even numbers up
 to the number ‘n’.

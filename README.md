@@ -79,3 +79,47 @@ Outcome:
 Learned and practiced how to use fork() system call to create a child process and
 make parent process to wait for child process.
 
+
+Q3. Implement the C program in which main program accepts an integer array.
+Main program uses the fork system call to create a new process called a
+child process. Parent process sorts an integer array and passes the sorted
+array to child process through the command line arguments of execve
+system call. The child process uses execve system call to load new program
+that uses this sorted array for performing the binary search to search the
+particular item in the array.
+Objective:
+To write a C program in which parent process sorts the given integers and passes
+the sorted integers to the child process through the command line arguments of
+execve system call. The child process uses execve system call to load new
+program that uses this sorted array for performing the binary search.
+Procedure:
+Step 1: Input the Integers to be sorted
+Step 2: Display the Entered Integers
+Step 3: Sort the integers.
+Step 4: Display the sorted Integers .
+Step 5: Input the integer to be searched.
+Step 6: Create Child Process
+Step 7: Pass the sorted integers to the child process through the command line
+arguments of execve system call.
+Step 8: Perform binary search.
+Step 7: Display the result of search.
+Step 8:Stop.
+Expected Output:
+~$ vi parent.c
+~$ vi child.c
+~$ gcc parent.c
+~$ gcc -o sample child.c
+~$ ./a.out sample
+Enter the size for an array
+Enter 5 elements: 5
+4
+3
+2
+1
+Entered elements are: 5 4 3 2 1
+Sorted elements are: 1 2 3 4 5
+Enter elements to search:
+3
+Element found in the given array...!!!
+
+

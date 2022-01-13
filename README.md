@@ -123,3 +123,36 @@ Enter elements to search:
 Element found in the given array...!!!
 
 
+Q4. Write a program to print the Child process ID and Parent process ID in
+both Child and Parent processes.
+
+Objective:
+To write a C program to print the Child process ID and Parent process ID in
+both Child and Parent processes.
+Procedure:
+Step 1: Print a hello message in Parent process.
+Step 2: Invoke the fork() system call.
+Step 3: Check for the return value of fork() system call. If the value returned is
+zero then it is child process. Print the Child process ID and Parent process ID
+using getpid() and getppid() methods.
+Step 4: If the fork() system call returns a non-zero positive integer, then it is
+parent process. Print the Child process ID and Parent process ID using getpid()
+and getppid() methods.
+Step 5: stop.
+
+Expected Output:
+hello before fork
+i : 0
+parent has started
+getpid : 721 getppid : 716
+Hi after fork i : 722
+Child has started
+child printing first time
+getpid : 722 getppid : 1
+
+Outcome:
+Learned and practiced how to use getpid() to get the process id and getppid() to
+get the parent process id.
+
+
+

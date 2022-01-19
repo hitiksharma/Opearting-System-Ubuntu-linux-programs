@@ -155,4 +155,24 @@ Learned and practiced how to use getpid() to get the process id and getppid() to
 get the parent process id.
 
 
+Experiment: OVERLAY CONCEPT
+
+Q1.Execute the Following Program and write the output
+$vi ex1.c
+#include <stdio.h>
+#include <unistd.h>
+int main()
+{
+printf("Transfer to execlp function \n");
+execlp("head", "head","-2","f1",NULL); 
+printf("This line will not execute \n");
+return 0;
+}
+Output :
+
+Why second printf statement is not executing?
+
+
+
+
 

@@ -174,5 +174,12 @@ Why second printf statement is not executing?
 
 
 
+Q2.. Rewrite question 1 with execlp() function. Pass the 3rd and 4th argument of the function
+execlp() through command line arguments.
+$vi ex2.c
+
+
+
+
 
 

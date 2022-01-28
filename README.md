@@ -178,6 +178,18 @@ Q2.. Rewrite question 1 with execlp() function. Pass the 3rd and 4th argument of
 execlp() through command line arguments.
 $vi ex2.c
 
+Experiment: PIPE INTER PROCESS COMMUNICATION 
+
+Ques1.Uni directional pipe:
+Algorithm
+Step 1 − Create a pipe using pipe() system call.
+Step 2 − Send a message to the one end of the pipe.
+Step 3 − Retrieve the message from the other end of the pipe and write it to the standard output.
+
+Expected Output:
+hello, world #1
+hello, world #2
+hello, world #3
 
 
 
